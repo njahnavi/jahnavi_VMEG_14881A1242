@@ -290,6 +290,10 @@ public class StudentGroup implements StudentArrayOperation {
 		{
 			cur = cur-1;
 		}
+		if((c.get(Calendar.DAY)-c1.Calendar.DAY))>0)
+		{
+		    cur = cur-1;
+		}
 		return cur;
 	}
 
