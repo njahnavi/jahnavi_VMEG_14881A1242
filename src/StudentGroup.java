@@ -154,7 +154,7 @@ public class StudentGroup implements StudentArrayOperation {
 		{
 			if(this.students[i].compareTo(student) == 0)
 			{
-				this.students = Arrays.copyOfRange(this.students, 0, i+1);
+				this.students = Arrays.copyOfRange(this.students, 0, i);
 				break;
 			}
 		}
@@ -167,7 +167,7 @@ public class StudentGroup implements StudentArrayOperation {
 		{
 			throw new IllegalArgumentException();
 		}
-		this.students = Arrays.copyOfRange(this.students, index, this.students.length-1);
+		this.students = Arrays.copyOfRange(this.students, index, this.students.length);
 	}
 
 	@Override
