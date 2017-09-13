@@ -192,7 +192,7 @@ public class StudentGroup implements StudentArrayOperation {
 	public void bubbleSort() {
 		// Add your implementation here
 		
-    for (int a=1; a < this.students.length; a++) {
+    for (int a=0; a < this.students.length; a++) {
         for(int b=0; b < this.students.length - a; b++) {
             if (this.students[b].compareTo(this.students[b+1]) > 0)
 			{
