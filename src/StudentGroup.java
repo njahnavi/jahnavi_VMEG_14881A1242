@@ -45,7 +45,7 @@ public class StudentGroup implements StudentArrayOperation {
 	
 	public Student getStudent(int index) {
 		// Add your implementation here
-		if(index < 0 && index >= students.length)
+		if(index < 0 || index >= students.length)
 		{
 			throw new IllegalArgumentException();
 		}	
