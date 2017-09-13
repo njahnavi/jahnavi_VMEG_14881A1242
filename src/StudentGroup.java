@@ -140,7 +140,7 @@ public class StudentGroup implements StudentArrayOperation {
 		{
 			throw new IllegalArgumentException();
 		}
-		this.students = Arrays.copyOfRange(this.students, 0, index);		
+		this.students = Arrays.copyOfRange(this.students, 0, index+1);		
 	}
 
 	@Override
