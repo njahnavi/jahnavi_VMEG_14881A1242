@@ -182,7 +182,7 @@ public class StudentGroup implements StudentArrayOperation {
 		{
 			if(this.students[i].compareTo(student) == 0)
 			{
-				this.students = Arrays.copyOfRange(this.students,i, this.students.length-1);
+				this.students = Arrays.copyOfRange(this.students,i, this.students.length);
 				break;
 			}
 		}
