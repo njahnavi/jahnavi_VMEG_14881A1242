@@ -79,7 +79,7 @@ public class StudentGroup implements StudentArrayOperation {
 		{
 			throw new IllegalArgumentException();
 		}
-		this.students[(this.students.length)-1] = student;
+		this.students[(this.students.length)] = student;
 	}
 
 	@Override
